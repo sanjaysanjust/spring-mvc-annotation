@@ -1,0 +1,49 @@
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Ignore build output directories
+/target/
+/build/
+/out/
+/bin/
+
+# Ignore dependency directories (for Maven or Gradle)
+/.m2/
+/.gradle/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore environment-specific files
+*.properties
+*.yml
+*.yaml
+.env
+
+# Ignore compiled classes
+*.class
+
+# Ignore Mac OS-specific files
+.DS_Store
+
+# Ignore Eclipse-specific files
+.settings/
+.project
+.classpath
+
+# Ignore NetBeans-specific files
+nbproject/
+nbactions.xml
+
+# Ignore IntelliJ-specific files
+*.idea
+*.iml
+*.ipr
+*.iws
